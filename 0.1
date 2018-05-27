@@ -1,0 +1,17 @@
+import random
+secret = random.randint(1,10)
+print('---------woxihuan li wen hua--------')
+temp = input("bufangcaiceyixia xinlixiangdeshuzi")
+guess = int(temp)
+while guess != secret:
+    temp = input("caicuola. chongxinshuru !")
+    guess = int(temp)
+    if guess == secret:
+        print("wocao,hdjanguash?!")
+        print("heng,caizongyemeijiangli!")
+    else:
+        if guess > secret:
+           print("da le da le")
+        else:
+           print(" xiao la")
+print("youxijieshu,buwanla^_^")
